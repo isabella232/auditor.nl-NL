@@ -5,7 +5,7 @@ seo-title: Tagaanwezigheid
 title: Tagaanwezigheid
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
 translation-type: tm+mt
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -36,7 +36,7 @@ De controleur evalueert of de markering bestaat, en of het op de juiste plaats i
    <td colname="col3"> <p>Implementeer de pixel van het Advertising Cloud-segment met de Launch Extension voor Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Analyse - geladen in DOM</b> </p> <p>Dikte: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/" format="https" scope="external"> Aanvullende informatie</a> </p> </td> 
+   <td colname="col1"> <p><b>Analyse - geladen in DOM</b> </p> <p>Dikte: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external"> Aanvullende informatie</a> </p> </td> 
    <td colname="col2"> <p> De tag Adobe Analytics is niet gedetecteerd. </p> </td> 
    <td colname="col3"> <p>Installeer de nieuwste versie van Analytics. </p> </td> 
   </tr> 
