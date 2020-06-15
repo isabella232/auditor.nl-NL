@@ -5,14 +5,17 @@ seo-title: Veelgestelde vragen over accountants
 title: Veelgestelde vragen over accountants
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
 translation-type: tm+mt
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
+workflow-type: tm+mt
+source-wordcount: '935'
+ht-degree: 7%
 
 ---
 
 
 # Veelgestelde vragen over accountants{#auditor-faq}
 
-Dit artikel bevat de antwoorden op veelgestelde vragen over Adobe Experience Platform Auditor.
+Dit artikel bevat de antwoorden op veelgestelde vragen over de Adobe Experience Platform Auditor.
 
 * [Wat is Auditor?](auditor-faq.md#section-c4a9bc8d8eef41598c27e0951a2518e4)
 * [Komt mijn bedrijf in aanmerking om Auditor te gebruiken?](auditor-faq.md#section-f90094050d1e44929066a942833435cf)
@@ -23,7 +26,7 @@ Dit artikel bevat de antwoorden op veelgestelde vragen over Adobe Experience Pla
 * [Welke informatie wordt in een rapport verstrekt?](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [Hoe handelbaar is die informatie?](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
 * [Kan Auditor de technologie controleren die niet van Adobe is?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [Kan ik mijn IP-adressen whiteliseren om het scannen van pagina&#39;s toe te staan...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [Kan ik mijn IP-adressen goedkeuren om het scannen van pagina&#39;s toe te staan...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Gebruikt de Auditor de zelfde IP waaiers zoals Observepoint?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## Wat is Auditor? {#section-c4a9bc8d8eef41598c27e0951a2518e4}
@@ -43,16 +46,16 @@ Nadat u zich hebt aangemeld op [https://experiencecloud.adobe.com](https://exper
 ## Welke technologieën van Adobe beoordelen Auditor? {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
-* Cloud Search voor advertenties
-* Analyse
+* Advertising Cloud Search
+* Analytics
 * DTM
-* Experience Cloud ID Service (voorheen Cloud ID Service)
-* Doel
+* Experience Cloud ID-service (voorheen Cloud ID-service voor marketing)
+* Target
 
 De volgende oplossingen van Adobe zijn momenteel niet inbegrepen in de testrubriek. Ondersteuning voor deze oplossingen is gepland voor toekomstige updates.
 
-* Creative Cloud voor advertenties
-* Auditiebeheer
+* Advertising Cloud Creative
+* Audience Manager
 * Campagne
 * Starten
 
@@ -112,7 +115,7 @@ De aanbevelingen die binnen deze categorieën vallen, worden vervolgens uitgespl
 
 ## Hoe handelbaar is die informatie? {#section-9308c1ea882048b781087ae6d2eee9f0}
 
-Alle aanbevelingen die via de controleur worden gedaan, zijn bedoeld om u te helpen actie te ondernemen om een probleem met uw implementatie van Adobe Experience Cloud-oplossingen, zoals DTM of Target, op te lossen. Om dit mogelijk te maken, heeft het team van accountants uitgebreid gewerkt om zeer gedetailleerde instructies te geven over wat moet worden gedaan waar. U kunt een spreadsheet van alle gescande URL&#39;s en alle testresultaten exporteren, zodat u probleemgebieden eenvoudig kunt identificeren. Hier is een voorbeeld van één aanbeveling voor een implementatie DTM:
+Alle aanbevelingen die via de Auditor worden gedaan, zijn bedoeld om u te helpen actie te ondernemen om een probleem met de implementatie van Adobe Experience Cloud-oplossingen, zoals DTM of Target, op te lossen. Om dit mogelijk te maken, heeft het team van accountants uitgebreid gewerkt om zeer gedetailleerde instructies te geven over wat moet worden gedaan waar. U kunt een spreadsheet van alle gescande URL&#39;s en alle testresultaten exporteren, zodat u probleemgebieden eenvoudig kunt identificeren. Hier is een voorbeeld van één aanbeveling voor een implementatie DTM:
 
 <table id="table_EE67775088344BDAA5126268072D6089"> 
  <tbody> 
@@ -124,9 +127,9 @@ Alle aanbevelingen die via de controleur worden gedaan, zijn bedoeld om u te hel
 
 ## Kan Auditor de technologie controleren die niet van Adobe is? {#section-f6e73c56083b4815bbf901296038bcd4}
 
-Nee. Nochtans, laat het volledige aanbod ObservePoint klanten toe om al uw marketing markeringen en technologieën te controleren en te controleren. Als Adobe-klant hebt u toegang tot een gratis proefaccount. Ga naar de pagina Auditor van [ObservePoint voor toegang tot uw proefaccount](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&utm_medium=Auditor&utm_campaign=Premium).
+Nee. Nochtans, laat het volledige aanbod ObservePoint klanten toe om al uw marketing markeringen en technologieën te controleren en te controleren. Als Adobe-klant hebt u toegang tot een gratis proefaccount. Ga naar de pagina Auditor van [ObservePoint voor toegang tot uw proefaccount](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
-## Kan ik mijn IP adressen whitelist om het aftasten van pagina&#39;s toe te staan die door login worden beschermd? {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Kan ik mijn IP adressen goedkeuren om het aftasten van pagina&#39;s toe te staan die door login worden beschermd? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 Deze functionaliteit wordt momenteel niet ondersteund zonder het volledige ObservePoint-aanbod.
 
