@@ -5,7 +5,10 @@ seo-title: Filters opnemen en uitsluiten
 title: Filters opnemen en uitsluiten
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
 translation-type: tm+mt
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ Om het even welk punt in het Include gebied van Filters beperkt het aftasten tot
 
 De filters Opnemen en Uitsluiten kunnen volledige URL&#39;s, gedeeltelijke URL&#39;s of reguliere expressies zijn die overeenkomen met een geldige pagina.
 
-## Volgorde {#section-e9d42419dd3f459bb20e7a33c6104f12}
+## Rangorde {#section-e9d42419dd3f459bb20e7a33c6104f12}
 
 1. **Het beginnen van URL** neemt belangrijkheid over al ander en zal altijd tijdens een controle worden bezocht, zelfs als een URL een punt in de filters van de Uitsluiting aanpast. De eerste URL wordt altijd vóór andere URL&#39;s bezocht.
 
@@ -77,7 +80,7 @@ Het gebruiken van het gebrek omvat filter verstrekt een brede waaier voor een co
 
 De Include Filters kunnen nauwkeurige URLs, gedeeltelijke URLs, of regelmatige uitdrukkingen bevatten. Als de URL voor het starten bijvoorbeeld is [!DNL http://mysite.com], kunnen de volgende pagina&#39;s standaard worden gescand (let op de vetgedrukte tekens):
 
-```
+```html
 http://mysite.com
 http
 <b>s</b>://mysite.com
@@ -89,9 +92,7 @@ http://
 <b>my</b>.mysite.com/products/products_and_services.html
 ```
 
-Gebruik voor complexe URL-patronen de reguliere-expressietestster van [ObservePoint](http://regex.observepoint.com/).
-
-Raadpleeg ook het document [Common Regular Expressions for ObservePoint](https://help.observepoint.com/articles/2872116-common-regular-expressions-for-observepoint) voor algemene voorbeelden van het gebruik van patroonovereenkomsten.
+Gebruik voor complexe URL-patronen de reguliere-expressietestster van [ObservePoint](https://regex.observepoint.com/).
 
 ## Filters uitsluiten {#section-00aa5e10c878473b91ba0844bebe7ca9}
 
@@ -107,4 +108,4 @@ Klik tijdens het maken van de controle op **[!UICONTROL Test Advanced Filters]**
 
 ## Documentatie voor observerpunt {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-Dit artikel is ontwikkeld in samenwerking met ObservePoint. Raadpleeg de documentatie bij [ObservePoint voor de meest recente informatie](https://help.observepoint.com/articles/2872121-include-and-exclude-filters).
+Dit artikel is ontwikkeld in samenwerking met ObservePoint. Raadpleeg de documentatie [van]ObservePoint (https://help.observepoint.com/) voor de meest recente informatie.
