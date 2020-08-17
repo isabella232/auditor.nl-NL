@@ -5,7 +5,10 @@ seo-title: Nieuwe controle instellen voor de controleur
 title: Nieuwe controle instellen voor de controleur
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
 translation-type: tm+mt
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ Gebruik desgewenst de koppeling onder aan de pagina om toegang te krijgen tot ee
    De naam mag maximaal 250 tekens lang zijn.
 1. (Vereist) Geef de eerste URL op.
 
-   Het protocol wordt vereist wanneer het specificeren van beginnende URL. De beginnende URL is de pagina waar de controle begint kruipend. Zodra begonnen, kruipt de Auditor tot 500 pagina&#39;s, na verbindingen die bij de beginnende URL beginnen. Zie Filters [opnemen en uitsluiten](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257) voor meer informatie. De eerste URL kan maximaal 250 tekens lang zijn.
+   Het protocol wordt vereist wanneer het specificeren van beginnende URL. De beginnende URL is de pagina waar de controle begint kruipend. Zodra begonnen, kruipt de Auditor tot 500 pagina&#39;s, na verbindingen die bij de beginnende URL beginnen. Zie Filters [opnemen en uitsluiten](../create-audit/filters.md) voor meer informatie. De eerste URL kan maximaal 250 tekens lang zijn.
 
    >[!NOTE]
    >
@@ -52,7 +55,7 @@ Gebruik desgewenst de koppeling onder aan de pagina om toegang te krijgen tot ee
 
    De include-filters zijn beperkt tot 1000 tekens per regel.
 
-   Zie Lijst [](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f) opnemen voor meer informatie.
+   Zie Lijst [](../create-audit/filters.md) opnemen voor meer informatie.
 1. Geef filters voor uitsluiten op.
 
    De lijst met uitsluitingen voorkomt dat URL&#39;s worden gecontroleerd. Gebruik exacte URL&#39;s, gedeeltelijke URL&#39;s of reguliere expressies, net als in de lijst Opnemen.
@@ -61,7 +64,7 @@ Gebruik desgewenst de koppeling onder aan de pagina om toegang te krijgen tot ee
 
    De uitsluitingsfilters zijn beperkt tot 1.000 tekens per regel.
 
-   Zie Lijst [](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9) uitsluiten voor meer informatie.
+   Zie Lijst [](../create-audit/filters.md) uitsluiten voor meer informatie.
 1. (Optioneel) U kunt desgewenst de include- en uitsluitingsfilters testen en uw URL&#39;s testen.
 
    Voer de filters en URL&#39;s in en klik vervolgens **[!UICONTROL Apply]** om de test uit te voeren.
