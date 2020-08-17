@@ -5,7 +5,10 @@ seo-title: Aan de slag
 title: Aan de slag
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
 translation-type: tm+mt
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +25,7 @@ De eerste keer dat u Auditor gebruikt, moet u de Auditor-overeenkomst voltooien 
 
 ## De eerste scan uitvoeren {#task-b211597afed343cfa238443fcf7c6041}
 
-1. Klik op de menuknop in de rechterbovenhoek van de navigatiebalk van Adobe Experience Cloud en klik op **[!UICONTROL Activation]**.
+1. Klik op de menuknop in de rechterbovenhoek van de Adobe Experience Cloud-navigatiebalk en klik op **[!UICONTROL Activation]**.
 
    ![](assets/activate.png)
 
@@ -44,10 +47,10 @@ De eerste keer dat u Auditor gebruikt, moet u de Auditor-overeenkomst voltooien 
 
    ![](assets/config.png)
 
-   Voor een beschrijving van alle configuratieopties, zie een Nieuwe Controle [](../create-audit/create-new-audit.md#task-6d157f80e5264642b877c2820b1d077d)creëren.
+   Voor een beschrijving van alle configuratieopties, zie een Nieuwe Controle [](../create-audit/create-new-audit.md)creëren.
 1. Bekijk uw rapport.
 
-   Wanneer u de e-mail ontvangt waarin u wordt geïnformeerd dat de scan is voltooid, klikt u op de koppeling om uw rapport [te](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869) bekijken en inzicht te krijgen in de mogelijkheden om uw implementatie te verbeteren en meer waar te maken van uw Adobe-oplossingen.
+   Wanneer u de e-mail ontvangt die u laat weten het aftasten volledig is, klik op de verbinding om uw rapport [te](../reports/scorecard.md) bekijken en mogelijkheden beginnen te begrijpen om uw implementatie te verbeteren en meer waarde van uw oplossingen van de Adobe te bereiken.
 
    U kunt ook op de naam van de controle op de pagina [](../get-started/audit-list.md) Auditor klikken om de status van de controle te zien en het rapport te bekijken nadat de audit is voltooid.
 
