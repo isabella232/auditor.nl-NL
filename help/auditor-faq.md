@@ -1,31 +1,31 @@
 ---
-description: 'null'
-seo-description: 'null'
+description: Algemene vragen en antwoorden over de Adobe Experience Platform Auditor
+seo-description: Algemene vragen en antwoorden over de Adobe Experience Platform Auditor
 seo-title: Veelgestelde vragen over accountants
-title: Veelgestelde vragen over accountants
+title: Veelgestelde vragen over Adobe Experience Platform Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
 translation-type: tm+mt
-source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
+source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 7%
+source-wordcount: '954'
+ht-degree: 6%
 
 ---
 
 
 # Veelgestelde vragen over accountants{#auditor-faq}
 
-Dit artikel bevat de antwoorden op veelgestelde vragen over de Adobe Experience Platform Auditor.
+Dit artikel bevat de antwoorden op veelgestelde vragen over Adobe Experience Platform Auditor.
 
 * [Wat is Auditor?](auditor-faq.md#section-c4a9bc8d8eef41598c27e0951a2518e4)
 * [Komt mijn bedrijf in aanmerking om Auditor te gebruiken?](auditor-faq.md#section-f90094050d1e44929066a942833435cf)
-* [Welke technologieën van Adobe beoordelen Auditor?](auditor-faq.md#section-52833b71c05448aaae508e6070a387f5)
+* [Welke technologieën van de Adobe beoordelen Auditor?](auditor-faq.md#section-52833b71c05448aaae508e6070a387f5)
 * [Hoeveel controles kan ik uitvoeren?](auditor-faq.md#section-caac1e50ce1249aeba76308f3ef03fa0)
 * [Wat is er gekropen voor een controle?](auditor-faq.md#section-6d068ed69ece4a1bb6d0c34454550c45)
 * [Hoe lang duurt een controle?](auditor-faq.md#section-5086ae27ef1f4671a9d951348654633a)
 * [Welke informatie wordt in een rapport verstrekt?](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [Hoe handelbaar is die informatie?](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
-* [Kan Auditor de technologie controleren die niet van Adobe is?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
+* [Kan de controleur de niet-Adobe technologie controleren?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
 * [Kan ik mijn IP-adressen goedkeuren om het scannen van pagina&#39;s toe te staan...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Gebruikt de Auditor de zelfde IP waaiers zoals Observepoint?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
@@ -33,30 +33,30 @@ Dit artikel bevat de antwoorden op veelgestelde vragen over de Adobe Experience 
 
 Auditor is een service van de Adobe Experience Cloud die samen met ObservePoint is ontwikkeld, experts in het valideren van digitale implementaties.
 
-Met de Auditor kunnen klanten maximaal 500 webpagina&#39;s tegelijk scannen en een rapport ontvangen waarin wordt aangegeven hoe ze hun Adobe Experience Cloud-implementaties kunnen verbeteren zodat ze de volledige waarde van hun Adobe-investering ontvangen.
+Met Auditor kunnen klanten tot 500 webpagina&#39;s tegelijk scannen en een rapport ontvangen dat laat zien hoe ze hun Adobe Experience Cloud-implementaties kunnen verbeteren zodat ze de volledige waarde van hun Adobe-investering ontvangen.
 
 ## Mag ik Auditor gebruiken? {#section-f90094050d1e44929066a942833435cf}
 
-Alle klantenorganisaties van Adobe Experience Cloud krijgen gratis toegang tot de controleur (vanaf 1 mei 2018). Elke gebruiker moet akkoord gaan met de gebruiksvoorwaarden van Adobe/ObservePoint in de gebruikersinterface van Adobe Experience Cloud voordat hij of zij de functie kan gebruiken. Neem contact op met uw accountmanager als u zich wilt afmelden.
+Alle Adobe Experience Cloud-klantenorganisaties krijgen gratis toegang tot de accountant (vanaf 1 mei 2018). Elke gebruiker moet akkoord gaan met de gebruiksvoorwaarden van Adobe/ObservePoint in de Adobe Experience Cloud-gebruikersinterface voordat hij of zij toegang krijgt tot de functionaliteit. Neem contact op met uw accountmanager als u zich wilt afmelden.
 
 ## Hoe heb ik toegang tot Auditor? {#section-531ff85f94384831a89cbb4109549daf}
 
 Nadat u zich hebt aangemeld op [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com), kunt u de Auditor zoeken door op **[!UICONTROL Activation]** op de bovenste navigatie te klikken. U kunt ook rechtstreeks naar [https://auditor.adobe.com](https://auditor.adobe.com) gaan.
 
-## Welke technologieën van Adobe beoordelen Auditor? {#section-52833b71c05448aaae508e6070a387f5}
+## Welke technologieën van de Adobe beoordelen Auditor? {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
 * Advertising Cloud Search
-* Analytics
+* Analytics 
 * DTM
-* Experience Cloud ID-service (voorheen Cloud ID-service voor marketing)
+* Experience Cloud ID Service (voorheen Marketing Cloud ID Service)
 * Target
 
 De volgende oplossingen van Adobe zijn momenteel niet inbegrepen in de testrubriek. Ondersteuning voor deze oplossingen is gepland voor toekomstige updates.
 
 * Advertising Cloud Creative
 * Audience Manager
-* Campagne
+* Campaign
 * Starten
 
 ## Hoeveel controles kan ik uitvoeren? {#section-caac1e50ce1249aeba76308f3ef03fa0}
@@ -80,7 +80,7 @@ Er zijn veel factoren die bijdragen tot de tijd die nodig is om een audit te vol
    De ObservePoint-engine laadt elke pagina van de controle in een browser. Hoe sneller een pagina wordt geladen, hoe sneller de controle wordt voltooid.
 * Gelijktijdige verbindingen
 
-   Adobe Auditor gebruikt één verbinding om elke pagina te bezoeken. Voor accounts met volledig observerpunt worden maar liefst tien engines tegelijk gebruikt.
+   Adobe Auditor gebruikt één enkele verbinding om elke pagina te bezoeken. Voor accounts met volledig observerpunt worden maar liefst tien engines tegelijk gebruikt.
 * Netwerkstilte
 
    Nadat elke pagina laadt, wacht de controle op een netwerkstilte van zeven seconden alvorens aan de volgende pagina te werk te gaan. Als een pagina veel netwerkverzoeken verzendt die voorkomen nadat de pagina laadt, wacht onderbreking na 60 seconden.
@@ -93,7 +93,7 @@ Er zijn veel factoren die bijdragen tot de tijd die nodig is om een audit te vol
 
 >[!NOTE]
 >
->Adobe Auditor voert één scan tegelijk uit. De Volledige rekeningen ObservePoint kunnen vele controles achtereenvolgens in werking stellen.
+>Adobe Auditor voert één enkele aftasten tegelijkertijd uit. De Volledige rekeningen ObservePoint kunnen vele controles achtereenvolgens in werking stellen.
 
 ## Welke informatie wordt in een rapport verstrekt? {#section-752d6b82f6744a3182c4ce16ea6b5d3f}
 
@@ -115,7 +115,7 @@ De aanbevelingen die binnen deze categorieën vallen, worden vervolgens uitgespl
 
 ## Hoe handelbaar is die informatie? {#section-9308c1ea882048b781087ae6d2eee9f0}
 
-Alle aanbevelingen die via de Auditor worden gedaan, zijn bedoeld om u te helpen actie te ondernemen om een probleem met de implementatie van Adobe Experience Cloud-oplossingen, zoals DTM of Target, op te lossen. Om dit mogelijk te maken, heeft het team van accountants uitgebreid gewerkt om zeer gedetailleerde instructies te geven over wat moet worden gedaan waar. U kunt een spreadsheet van alle gescande URL&#39;s en alle testresultaten exporteren, zodat u probleemgebieden eenvoudig kunt identificeren. Hier is een voorbeeld van één aanbeveling voor een implementatie DTM:
+Alle aanbevelingen die via de controleur worden gedaan, zijn bedoeld om u te helpen actie te ondernemen om een probleem met de implementatie van Adobe Experience Cloud-oplossingen, zoals DTM of Target, op te lossen. Om dit mogelijk te maken, heeft het team van accountants uitgebreid gewerkt om zeer gedetailleerde instructies te geven over wat moet worden gedaan waar. U kunt een spreadsheet van alle gescande URL&#39;s en alle testresultaten exporteren, zodat u probleemgebieden eenvoudig kunt identificeren. Hier is een voorbeeld van één aanbeveling voor een implementatie DTM:
 
 <table id="table_EE67775088344BDAA5126268072D6089"> 
  <tbody> 
@@ -125,7 +125,7 @@ Alle aanbevelingen die via de Auditor worden gedaan, zijn bedoeld om u te helpen
  </tbody> 
 </table>
 
-## Kan Auditor de technologie controleren die niet van Adobe is? {#section-f6e73c56083b4815bbf901296038bcd4}
+## Kan de controleur de niet-Adobe technologie controleren? {#section-f6e73c56083b4815bbf901296038bcd4}
 
 Nee. Nochtans, laat het volledige aanbod ObservePoint klanten toe om al uw marketing markeringen en technologieën te controleren en te controleren. Als Adobe-klant hebt u toegang tot een gratis proefaccount. Ga naar de pagina Auditor van [ObservePoint voor toegang tot uw proefaccount](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
