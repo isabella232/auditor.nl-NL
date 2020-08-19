@@ -1,13 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
+description: informatie over de tests van de Adobe Auditor
+seo-description: informatie over de tests van de Adobe Auditor
 seo-title: Testrubriek 0.0.8
 title: Testrubriek 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1998'
 ht-degree: 5%
 
 ---
