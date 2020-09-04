@@ -5,10 +5,10 @@ seo-title: Codeconsistentie
 title: Codeconsistentie
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 10%
+source-wordcount: '113'
+ht-degree: 9%
 
 ---
 
@@ -30,9 +30,9 @@ De consistentietests van de controleur zoeken naar inconsistenties op alle gesca
  <tbody> 
   <tr> 
    <td colname="col1"> 
-    <draft-comment>
+    <!--
       1.0.1 
-    </draft-comment> <p><b>Analyse - Consistente codeversie </b> </p> <p>Dikte: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="html" scope="external"> Extra informatie</a> </p> </td> 
+    --> <p><b>Analyse - Consistente codeversie </b> </p> <p>Dikte: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="html" scope="external"> Extra informatie</a> </p> </td> 
    <td colname="col2"> <p> Er zijn meerdere versies van de Analytics-code gevonden. </p> </td> 
    <td colname="col3"> <p>Vervang alle instanties van Analytics door de huidige versie. </p> </td> 
   </tr> 
