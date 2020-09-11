@@ -1,16 +1,20 @@
 ---
 cloud: experience-cloud
 product: auditor
-sub-product: auditor
+sub-product: controleur
 audience: end-user
-user-guide-title: Experience Platform Auditor Help
+user-guide-title: Help van Experience Platform Auditor
+breadcrumb-title: Auditor Guide
 translation-type: tm+mt
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+source-git-commit: 65cda335ae83c5a49cde06f54570bfac0ec88b32
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 14%
 
 ---
 
 
-# Help bij Experience Platform Auditor {#using}
+# Help van Experience Platform Auditor {#using}
 
 + [Overzicht](overview.md)
 + Aan de slag {#get-started}
