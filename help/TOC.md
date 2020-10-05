@@ -8,10 +8,10 @@ user-guide-description: Generate a report that grades your Adobe Experience Clou
 breadcrumb-title: Auditor Guide
 breadcrumb-url: /docs/auditor/using/overview.html
 translation-type: tm+mt
-source-git-commit: 4f25203c2c6df52a7bee18a63598a9ca0b2ea337
+source-git-commit: eff790431a58c832b299c6d58573d74b5b8dc50a
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 14%
+source-wordcount: '53'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 14%
 + [Overzicht](overview.md)
 + Aan de slag {#get-started}
    + [Aan de slag](get-started/getting-started.md)
-   + [Video&#39;s van de controleur](get-started/videos.md)
    + [Pagina met controlelijsten](get-started/audit-list.md)
 + Een controle maken {#create-audit}
    + [Nieuwe controle maken](create-audit/create-new-audit.md)
