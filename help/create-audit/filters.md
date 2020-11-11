@@ -5,7 +5,7 @@ seo-title: Filters opnemen en uitsluiten
 title: Filters opnemen en uitsluiten
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Met filters opnemen en filters uitsluiten geeft u richtlijnen voor audits. Door 
 
 Door Include filters, de filters van de Uitsluiting, of een combinatie beide toe te passen, kunnen de instructies betreffende welke verbindingen een controle kruipen worden gegeven.
 
-Om het even welk punt in het Include gebied van Filters beperkt het aftasten tot slechts de pagina&#39;s die dat punt aanpassen. Elk item in het veld Filters uitsluiten voorkomt dat pagina&#39;s die overeenkomen met dat item worden gescand.
+Elk item in het [!UICONTROL Include Filters] veld beperkt de scan tot alleen de pagina&#39;s die overeenkomen met dat item. Elk item in een [!UICONTROL Exclude Filters] veld voorkomt dat pagina&#39;s die overeenkomen met dat item worden gescand.
 
 De filters Opnemen en Uitsluiten kunnen volledige URL&#39;s, gedeeltelijke URL&#39;s of reguliere expressies zijn die overeenkomen met een geldige pagina.
 
@@ -53,7 +53,7 @@ De filters Opnemen en Uitsluiten kunnen volledige URL&#39;s, gedeeltelijke URL&#
 
 ## URL starten {#section-ccb46abcd96f4a8ab171245015d2b724}
 
-De controleur vereist één enkele pagina voor het Begin URL. De eerste URL wordt altijd vóór andere URL&#39;s bezocht. Koppelingen die vanaf de startpagina worden ontdekt, kunnen worden bezocht, afhankelijk van de filters Opnemen en Uitsluiten. Als een item voor uitsluiten overeenkomt met een starteURL, wordt dit item genegeerd.
+Adobe Experience Platform Auditor vereist één pagina voor het Starten van URL. De eerste URL wordt altijd vóór andere URL&#39;s bezocht. Koppelingen die vanaf de startpagina worden ontdekt, kunnen worden bezocht, afhankelijk van de filters Opnemen en Uitsluiten. Als een item voor uitsluiten overeenkomt met een starteURL, wordt dit item genegeerd.
 
 ## Inclusief filters {#section-7626060a56a24b658f8c05f031ac3f5f}
 
@@ -76,9 +76,9 @@ Standaard worden alle subdomeinen van de eerste URL door een controle gescand. T
 
 Hierdoor kan elke koppeling die op de startpagina van de URL wordt gevonden, worden bezocht. Deze komt overeen met elke pagina in elk subdomein van de URL die wordt gestart.
 
-Het gebruiken van het gebrek omvat filter verstrekt een brede waaier voor een controle om te kruipen. Als u in bepaalde secties of pagina&#39;s wilt gaan werken, geeft u specifieke aanwijzingen voor de controle door filters toe te voegen in dit vak. In dat geval vervangt u de standaardwaarde door de directory&#39;s die de controle moet scannen. U kunt ook filters gebruiken om interdomeincontrole uit te voeren waar u de controle op één domein moet beginnen en op een andere beëindigen. Typ hiertoe de domeinen die u wilt doorlopen. Als u URL&#39;s voor Include-filters wilt vinden, moeten deze in elk geval worden gevonden op een pagina die wordt gecontroleerd.
+Het gebruiken van het gebrek omvat filter verstrekt een brede waaier voor een controle om te kruipen. Als u in bepaalde secties of pagina&#39;s wilt gaan werken, geeft u specifieke aanwijzingen voor de controle door filters toe te voegen in dit vak. In dat geval vervangt u de standaardwaarde door de directory&#39;s die de controle moet scannen. U kunt Include filters ook gebruiken om dwars-domein controle uit te voeren waar u de controle op één domein moet beginnen en op een ander beëindigen. Typ hiertoe de domeinen die u wilt doorlopen. Wanneer Include-filter-URL&#39;s worden gevonden, moeten deze in elk geval worden gevonden op een pagina die wordt gecontroleerd.
 
-De Include Filters kunnen nauwkeurige URLs, gedeeltelijke URLs, of regelmatige uitdrukkingen bevatten. Als de URL voor het starten bijvoorbeeld is [!DNL http://mysite.com], kunnen de volgende pagina&#39;s standaard worden gescand (let op de vetgedrukte tekens):
+De Include filters kunnen nauwkeurige URLs, gedeeltelijke URLs, of regelmatige uitdrukkingen bevatten. Als de URL voor het starten bijvoorbeeld is [!DNL http://mysite.com], kunnen de volgende pagina&#39;s standaard worden gescand (let op de vetgedrukte tekens):
 
 ```html
 http://mysite.com
@@ -100,7 +100,7 @@ De filters van de Uitsluiting verhinderen URLs worden gecontroleerd. U kunt exac
 
 ## Filters en URL&#39;s testen {#section-3cfa125b1756411395a64701e128efa0}
 
-U kunt uw filters en URLs binnen Auditor testen.
+U kunt uw filters en URLs binnen de Auditor van het Platform testen.
 
 Klik tijdens het maken van de controle op **[!UICONTROL Test Advanced Filters]**. Voer de filters en URL&#39;s in en klik op **[!UICONTROL Apply]**.
 
