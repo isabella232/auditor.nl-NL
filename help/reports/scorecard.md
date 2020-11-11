@@ -5,7 +5,10 @@ seo-title: Scorecard
 title: Scorecard
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
 translation-type: tm+mt
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 3%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 Nadat u een test in werking stelt, toont scorecard informatie over een controle.
 
-Klik op de naam van uw controle op de pagina Auditor om de resultaten van uw test weer te geven.
+Klik op de naam van uw controle op de pagina Adobe Experience Platform Auditor om de resultaten van uw test weer te geven.
 
 ![](assets/report.png)
 
@@ -47,7 +50,7 @@ De scorecard maakt een lijst van om het even welke niveau 4 of 5 kwesties als **
 
 De scorecard maakt een lijst van om het even welke niveau 1 tot 3 kwesties zoals **geadviseerd** die u bevestigt.
 
-Klik op **[!UICONTROL Download the Report]** om een Excel- of PDF-bestand te downloaden dat de informatie bevat die door de controle wordt gerapporteerd.
+Klik op **[!UICONTROL Download the Report]** om een - of PDF-bestand te downloaden dat de informatie bevat die door de controle wordt gerapporteerd.[!DNL Excel]
 
 Naast de score voor elke categorie, maakt een lijst van scorecard van om het even welke moeilijke situaties die worden geadviseerd of hoogst geadviseerd, evenals de punten die de test met succes bekritiseerden. Klik op elk probleem om meer details in het vak rechts te zien. Klik nogmaals om verder naar beneden te boren en aanbevelingen te bekijken over hoe u het probleem kunt oplossen. Het volgende toont de details voor een Aanbevolen kwestie in hierboven getoonde scorecard:
 
@@ -59,4 +62,4 @@ Klik op de categorieën boven aan het scherm om de problemen in elke categorie w
 
 U kunt lijsten weergeven van de URL&#39;s die tijdens de test zijn geslaagd of mislukt.
 
-Klik in het scorebord op een testnaam of de **[!UICONTROL See All]** koppeling onder elke koptekst van de categorie. Dit brengt u naar de details van de tests. Voor elke test, kunt u de testbeschrijving en een lijst van om het even welke URL zien die ontbrak en geslaagd. Deze informatie wordt ook opgenomen in gedownloade rapporten.
+Klik in de scorecard op een testnaam of de **[!UICONTROL See All]** koppeling onder elke categoriekop. Dit brengt u naar de details van de tests. Voor elke test, kunt u de testbeschrijving en een lijst van om het even welke URL zien die ontbrak en geslaagd. Deze informatie wordt ook opgenomen in gedownloade rapporten.
