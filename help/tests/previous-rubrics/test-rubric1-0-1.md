@@ -1,13 +1,13 @@
 ---
-description: informatie over de tests van de Adobe Auditor
-seo-description: informatie over de tests van de Adobe Auditor
+description: informatie over de tests van de Adobe Experience Platform Auditor
+seo-description: informatie over de tests van de Adobe Experience Platform Auditor
 seo-title: Testrubriek 1.0.1
 title: Testrubriek 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
 translation-type: tm+mt
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2727'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 ## Waarschuwingen {#alerts}
 
-Deze verwijzing verstrekt meer informatie over de vertoningen van de Auditor van alarm voor tests.
+Deze naslaggids bevat meer informatie over de waarschuwingen die Adobe Experience Platform Auditor weergeeft voor tests.
 
 Waarschuwingen tonen problemen waarvan je op de hoogte moet zijn, maar die geen invloed hebben op je score. Dit zijn aanbevelingen voor best practices die in sommige gevallen niet van toepassing zijn op uw implementatie.
 
@@ -38,7 +38,7 @@ Waarschuwingen tonen problemen waarvan je op de hoogte moet zijn, maar die geen 
       1.0.1 
     --> <p><b>Advertising Cloud - Correct geïmplementeerde omzettingstag</b> </p> <p>Dikte: 0 </p> </td> 
    <td colname="col2"> <p>Controleer of de juiste conversietag wordt gebruikt. </p> <p> <p>Waarschuwing:  Het gebruik van verouderde conversietags voor TubeMogul kan gegevensverlies tot gevolg hebben. </p> </p> </td> 
-   <td colname="col3"> <p>Voer een upgrade uit op de conversiepixels naar de nieuwe Advertising Cloud-tags voor conversie van alleen afbeeldingen. </p> <p>Dit kan het gemakkelijkst met de Uitbreiding van de Lancering van Advertising Cloud worden verwezenlijkt. </p> </td> 
+   <td colname="col3"> <p>Voer een upgrade uit op de conversiepixels naar de nieuwe Advertising Cloud-tags voor conversie van alleen afbeeldingen. </p> <p>Dit kan het gemakkelijkst met de uitbreiding van Advertising Cloud voor Adobe Experience Platform Launch worden verwezenlijkt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -46,7 +46,7 @@ Waarschuwingen tonen problemen waarvan je op de hoogte moet zijn, maar die geen 
       1.0.1 
     --> <p><b>Advertising Cloud - JS-tag corrigeren gebruikt</b> </p> <p>Dikte: 0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud moet de nieuwste JavaScript-tags gebruiken. </p> </td> 
-   <td colname="col3"> <p>Upgrade uw Advertising Cloud JavaScript naar de nieuwste versie. Als u de verouderde JavaScript-versies gebruikt, kan de functionaliteit verloren gaan. </p> <p>Dit kan gemakkelijker worden verwezenlijkt door de Uitbreiding van de Lancering van Advertising Cloud te gebruiken. </p> </td> 
+   <td colname="col3"> <p>Upgrade uw Advertising Cloud JavaScript naar de nieuwste versie. Als u de verouderde JavaScript-versies gebruikt, kan de functionaliteit verloren gaan. </p> <p>Dit kan gemakkelijker door het gebruik van de uitbreiding van Advertising Cloud voor de Lancering van het Platform worden verwezenlijkt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -59,7 +59,7 @@ Waarschuwingen tonen problemen waarvan je op de hoogte moet zijn, maar die geen 
       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Upgrade uw Advertising Cloud-pixels naar de nieuwe Advertising Cloud-tags voor alleen afbeeldingen, zodat u de volledige Advertising Cloud-functionaliteit kunt benutten. </p> <p>Dit kan het gemakkelijkst met de Uitbreiding van de Lancering van Advertising Cloud worden verwezenlijkt. </p> </td> 
+   <td colname="col3"> <p>Upgrade uw Advertising Cloud-pixels naar de nieuwe Advertising Cloud-tags voor alleen afbeeldingen, zodat u de volledige Advertising Cloud-functionaliteit kunt benutten. </p> <p>Dit kan het gemakkelijkst met de uitbreiding van Advertising Cloud voor de Lancering van het Platform worden verwezenlijkt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -67,7 +67,7 @@ Waarschuwingen tonen problemen waarvan je op de hoogte moet zijn, maar die geen 
       1.0.1 
     --> <p><b>Advertising Cloud - Segmentpixels DSP synchroniseren ingeschakeld</b> </p> <p>Dikte: 0 </p> </td> 
    <td colname="col2"> <p>Controleer of de TubeMogul-segmentpixel een DSP-instelling bevat en adviseer dat de instelling aan de pixel wordt toegevoegd. </p> <p>De instelling DSP synchroniseren wordt bepaald door het gebruik van een parameter voor een queryreeks, dus </p> <p>ALS de tag wordt geactiveerd naar<span class="codeph"> ("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;")</span> </p> <p> OF <span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> OF <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>EN de tag bevat de URL-parameter <span class="codeph"> "sid=")</span> </p> <p>Controleer VERVOLGENS of de URL-parameter <span class="codeph"> "cs=0"</span> of<span class="codeph"> "cs=1"</span> bestaat en adviseer, als dit niet het geval is, dat <span class="codeph"> "cs=1"</span> aan die pixels wordt toegevoegd zodat de overeenkomende frequenties van de doelgroep kunnen worden verbeterd. </p> </td> 
-   <td colname="col3"> <p> Voeg de URL-parameter <span class="codeph"> "cs=1"</span> toe aan uw Advertising Cloud-pixels, zodat DSP synchroniseren kan plaatsvinden, waardoor de overeenkomende frequenties voor de doelgroep toenemen. </p> <p>Dit kan het gemakkelijkst met de Uitbreiding van de Lancering van Advertising Cloud worden verwezenlijkt. </p> </td> 
+   <td colname="col3"> <p> Voeg de URL-parameter <span class="codeph"> "cs=1"</span> toe aan uw Advertising Cloud-pixels, zodat DSP synchroniseren kan plaatsvinden, waardoor de overeenkomende frequenties voor de doelgroep toenemen. </p> <p>Dit kan het gemakkelijkst met de uitbreiding van Advertising Cloud voor de Lancering van het Platform worden verwezenlijkt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -104,7 +104,7 @@ Waarschuwingen tonen problemen waarvan je op de hoogte moet zijn, maar die geen 
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>Bij starten moet als synchroon geïmplementeerd een <span class="codeph"> callback-functie </span>pageBottom als laatste in de hoofdtekst van de pagina zijn gedefinieerd </p> <p> <p>Opmerking: Het wordt aanbevolen dat de tag de <i>laatste</i> tag in de <span class="codeph"> &lt;body&gt;</span>is. Als het binnen de <span class="codeph"> &lt;body&gt;</span> markering wordt gevonden, heeft het een kans om te functioneren, maar aangezien het niet beste praktijken is, kon het verkeerd of met onverwachte of ongewenste resultaten functioneren. </p> </p> </td> 
+   <td colname="col2"> <p>Bij starten van Platform moet de <span class="codeph"> callback-functie </span>pageBottom als laatste in de hoofdtekst van de pagina zijn gedefinieerd als deze synchroon wordt geïmplementeerd </p> <p> <p>Opmerking: Het wordt aanbevolen dat de tag de <i>laatste</i> tag in de <span class="codeph"> &lt;body&gt;</span>is. Als het binnen de <span class="codeph"> &lt;body&gt;</span> markering wordt gevonden, heeft het een kans om te functioneren, maar aangezien het niet beste praktijken is, kon het verkeerd of met onverwachte of ongewenste resultaten functioneren. </p> </p> </td> 
    <td colname="col3"> <p>Voeg het inlinescript direct vóór de afsluitende <span class="codeph"> &lt;/body&gt;</span> -tag toe voor de juiste DTM-functionaliteit. </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ Waarschuwingen tonen problemen waarvan je op de hoogte moet zijn, maar die geen 
     <!--
       1.0.1 
     --> <p><b>Starten - Zelfgehost</b> </p> <p>Dikte: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Extra informatie</a> </p> </td> 
-   <td colname="col2"> <p>De Launch-bibliotheek wordt gehost op Adobe Akamai-instantie op <span class="filepath"> assets.adobedtm.com</span>. </p> <p>Zelf-ontvangen is de geadviseerde benadering voor het laden van Lancering omdat het grotere controle van websiteprestaties door geheim voorgeheugencontrole, verminderend derdemanuscriptgebiedsdelen, en grotere controle van het het publiceren proces verleent. De opstartbibliotheken kunnen worden gehost en beheerd via uw eigen webhosting of CDN. </p> </td> 
-   <td colname="col3"> <p>Hoewel het ontvangen van de Lancering via Akamai CDN in de meeste gevallen werkt, adviseert men dat zelf-ontvangen als eerste stap in het verbeteren van paginaprestaties wordt uitgevoerd. </p> </td> 
+   <td colname="col2"> <p>Het Platform starten wordt gehost op Adobe Akamai-instantie op <span class="filepath"> assets.adobedtm.com</span>. </p> <p>Zelf-ontvangen is de geadviseerde benadering voor het laden van de Lancering van het Platform omdat het grotere controle van websiteprestaties door geheim voorgeheugencontrole, verminderend derdemanuscriptgebiedsdelen, en grotere controle van het het publiceren proces verleent. De bibliotheken van de Lancering van het Platform kunnen door uw eigen Web worden ontvangen en worden beheerd die of CDN. </p> </td> 
+   <td colname="col3"> <p>Hoewel het ontvangen van de Lancering van het Platform via Akamai CDN in de meeste gevallen werkt, adviseert men dat zelf-ontvangen als eerste stap in het verbeteren van paginaprestaties wordt uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Starten - moet asynchroon worden geïmplementeerd</b> </p> <p>Dikte: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Extra informatie</a> </p> </td> 
-   <td colname="col2"> <p>Start moet asynchroon worden geïmplementeerd voor optimale prestaties. </p> </td> 
-   <td colname="col3"> <p>De asynchrone parameter opnemen in het inlinescript voor de juiste functionaliteit voor asynchrone Starten </p> </td> 
+   <td colname="col2"> <p>De Lancering van het Platform zou asynchroon voor optimale prestaties moeten worden opgesteld. </p> </td> 
+   <td colname="col3"> <p>De asynchrone parameter opnemen in het inlinescript voor de juiste functionaliteit voor het starten van het asynchrone Platform </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -136,9 +136,9 @@ Waarschuwingen tonen problemen waarvan je op de hoogte moet zijn, maar die geen 
 
 ## Configuratie {#configuration}
 
-Deze verwijzing verstrekt meer informatie over de tests Auditor voor configuratie presteert.
+Deze verwijzing verstrekt meer informatie over de controleur van het Platform van tests voor configuratie presteert.
 
-De tests van de configuratie kunnen voor specifieke montages, waarden, of potentiële conflicten in uw implementatie aftasten. De controleur evalueert de markeringen tegen andere regels en geadviseerde beste praktijken.
+De tests van de configuratie kunnen voor specifieke montages, waarden, of potentiële conflicten in uw implementatie aftasten. De Auditor van het Platform evalueert de markeringen tegen andere regels en geadviseerde beste praktijken.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -169,7 +169,7 @@ De tests van de configuratie kunnen voor specifieke montages, waarden, of potent
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Advertising Cloud - Transactie-ID correct geïmplementeerd</b> </p> <p>Dikte: 3 </p> </td> 
+    --> <p><b>Advertising Cloud - Transactie-ID correct geïmplementeerd</b> </p> <p>Dikte: 1 </p> </td> 
    <td colname="col2"> <p> De eigenschapnaam <span class="codeph"> ev_transid=</span> mag niet leeg zijn. </p> <p>Voorbeeld: </p> <p> <span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>De eigenschapnaam <span class="codeph"> ev_transid=</span> mag niet zonder een waarde worden gelaten (<span class="codeph"> ev_transid=</span>). Als dit zonder een waarde wordt verlaten, zou er verlies van transactiegegevens kunnen zijn. Wijs een waarde toe aan <span class="codeph"> ev_transid=</span> of verwijder de parameter uit het pixel. </p> </td> 
   </tr> 
@@ -193,7 +193,7 @@ De tests van de configuratie kunnen voor specifieke montages, waarden, of potent
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Analyse - nieuwste versie</b> </p> <p>Dikte: 3 </p> <p><a href="https://docs.adobe.com/content/help/nl-NL/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Extra informatie</a> </p> </td> 
+    --> <p><b>Analyse - nieuwste versie</b> </p> <p>Dikte: 1 </p> <p><a href="https://docs.adobe.com/content/help/nl-NL/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Extra informatie</a> </p> </td> 
    <td colname="col2"> <p> De meest recente versie van de Codebibliotheek Analytics wordt niet uitgevoerd op uw pagina's. Codebibliotheken die Experience Cloud-technologieën van stroom voorzien, worden voortdurend bijgewerkt en getweend om te profiteren van prestatieverbeteringen en de nieuwste functies te bieden. Retourneert 0 wanneer er geen analytische code op de webpagina is gevonden. </p> </td> 
    <td colname="col3"> <p>Installeer de nieuwste versie van de bibliotheek Analytics. </p> </td> 
   </tr> 
@@ -201,7 +201,7 @@ De tests van de configuratie kunnen voor specifieke montages, waarden, of potent
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>DTM - tags van derden worden asynchroon geladen nadat DOM gereed is</b> </p> <p>Dikte: 3 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/resources/load-order.html" format="html" scope="external"> Extra informatie</a> </p> </td> 
+    --> <p><b>DTM - tags van derden worden asynchroon geladen nadat DOM gereed is</b> </p> <p>Dikte: 1 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/resources/load-order.html" format="html" scope="external"> Extra informatie</a> </p> </td> 
    <td colname="col2"> <p>Om een evenwicht te vinden tussen een goede gebruikerservaring en het verzamelen van nauwkeurige gegevens, zouden de markeringen van de derde partij bij DOM klaar moeten teweegbrengen. Zo zorgt u ervoor dat deze volgende scripts worden uitgevoerd zonder dat dit van invloed is op de functionaliteit van de site. </p> </td> 
    <td colname="col3"> <p>Los dit probleem op door alle regels aan te passen die pixels van derden uitvoeren om bij DOM Ready te worden geactiveerd. </p> </td> 
   </tr> 
@@ -218,8 +218,8 @@ De tests van de configuratie kunnen voor specifieke montages, waarden, of potent
     <!--
       1.0.1 
     --> <p><b>Starten - Laatste versie</b> </p> <p>Dikte: 2 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Extra informatie</a> </p> </td> 
-   <td colname="col2"> <p>Op deze pagina's wordt niet de laatste versie van de Codebibliotheek van de Lancering (Turbine) uitgevoerd. Codebibliotheken die Experience Cloud-technologieën van stroom voorzien, worden voortdurend bijgewerkt en getweend om te profiteren van prestatieverbeteringen en de nieuwste functies te bieden. </p> </td> 
-   <td colname="col3"> <p> Werk de bibliotheek van de Lancering bij door de bibliotheek van de Lancering opnieuw op te bouwen en te publiceren. </p> </td> 
+   <td colname="col2"> <p>Op deze pagina's wordt niet de nieuwste versie van de Platform Launch-codebibliotheek (Turbine) uitgevoerd. Codebibliotheken die Experience Cloud-technologieën van stroom voorzien, worden voortdurend bijgewerkt en getweend om te profiteren van prestatieverbeteringen en de nieuwste functies te bieden. </p> </td> 
+   <td colname="col3"> <p> Werk de bibliotheek van de Lancering van het Platform bij door de bibliotheek van de Lancering van het Platform opnieuw op te bouwen en te publiceren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -250,9 +250,9 @@ De tests van de configuratie kunnen voor specifieke montages, waarden, of potent
 
 ## Codeconsistentie {#tag-consistency}
 
-Deze verwijzing verstrekt meer informatie over de tests Auditor voor markeringsconsistentie presteert.
+Deze verwijzing verstrekt meer informatie over de tests de Auditor van het Platform voor markeringsconsistentie presteert.
 
-De consistentietests van de controleur zoeken naar inconsistenties op alle gescande pagina&#39;s. Dit zijn waarden of configuraties die voor alle pagina&#39;s op de site hetzelfde moeten zijn om nauwkeurige gegevensverzameling te garanderen.
+De consistentietests van de controleur van het Platform zoeken naar inconsistenties op alle gescande pagina&#39;s. Dit zijn waarden of configuraties die voor alle pagina&#39;s op de site hetzelfde moeten zijn om nauwkeurige gegevensverzameling te garanderen.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
@@ -276,9 +276,9 @@ De consistentietests van de controleur zoeken naar inconsistenties op alle gesca
 
 ## Tagaanwezigheid {#tag-presence}
 
-Deze verwijzing verstrekt meer informatie over de tests Auditor voor markeringsaanwezigheid uitvoert.
+Deze naslaggids bevat meer informatie over de tests die de Platform Auditor uitvoert voor de aanwezigheid van tags.
 
-De controleur evalueert of de markering bestaat, en of het op de juiste plaats in uw paginacode is.
+De Auditor van het Platform evalueert of de markering bestaat, en of het op de juiste plaats in uw paginacode is.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -295,7 +295,7 @@ De controleur evalueert of de markering bestaat, en of het op de juiste plaats i
       1.0.1 
     --> <p><b>Advertising Cloud - Code-aanwezigheid</b> </p> <p>Dikte: 5 </p> </td> 
    <td colname="col2"> <p> De Advertising Cloud-tag is niet beschikbaar in het DOM. </p> </td> 
-   <td colname="col3"> <p>Implementeer de Advertising Cloud-tag met de Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Implementeer de Advertising Cloud-tag met de Advertising Cloud-extensie voor het starten van Platforms. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -303,7 +303,7 @@ De controleur evalueert of de markering bestaat, en of het op de juiste plaats i
       1.0.1 
     --> <p><b>Advertising Cloud - Geïmplementeerde segmentpixel</b> </p> <p>Dikte: 5 </p> </td> 
    <td colname="col2"> <p> Upgrade de Advertising Cloud-segmentpixels naar de nieuwe Advertising Cloud-tags voor alleen afbeeldingen. Het gebruik van verouderde AMO-segmenttags kan leiden tot gegevensverlies. </p> </td> 
-   <td colname="col3"> <p>Implementeer de Advertising Cloud-segmentpixel met de Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Implementeer het Advertising Cloud-segmentpixel met de Advertising Cloud-extensie voor het starten van Platforms. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -379,14 +379,14 @@ De controleur evalueert of de markering bestaat, en of het op de juiste plaats i
       1.0.1 
     --> <p><b> Starten - Bibliotheek geladen</b> </p> <p>Dikte: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Extra informatie</a> </p> </td> 
    <td colname="col2"> <p> Een globaal _satelliet-object is niet gevonden in de DOM. Starten is niet geïnstalleerd of kan niet worden uitgevoerd. </p> </td> 
-   <td colname="col3"> <p>Controleer of de bibliotheek Launch op de pagina is geïmplementeerd en niet wordt geblokkeerd door volgende scriptactiviteiten. </p> </td> 
+   <td colname="col3"> <p>Verifieer dat de bibliotheek van de Lancering van het Platform op de pagina wordt uitgevoerd en niet door verdere manuscriptactiviteiten geblokkeerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Starten - Er zijn niet meerdere ingesloten scripts</b> </p> <p>Dikte: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Extra informatie</a> </p> </td> 
-   <td colname="col2"> <p>Er mogen niet meerdere insluitscripts op de pagina worden geladen. Productieplaatsen mogen slechts één opstartbibliotheek laden. </p> </td> 
+   <td colname="col2"> <p>Er mogen niet meerdere insluitscripts op de pagina worden geladen. Productieplaatsen mogen slechts één Platform starten bibliotheek laden. </p> </td> 
    <td colname="col3"> <p>Controleer of alleen de productiebibliotheek op de pagina wordt geladen. </p> </td> 
   </tr> 
   <tr> 
@@ -394,16 +394,16 @@ De controleur evalueert of de markering bestaat, en of het op de juiste plaats i
     <!--
       1.0.1 
     --> <p><b>Starten - pageBottom callback bestaat in &lt;body&gt;</b> </p> <p>Dikte: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Extra informatie</a> </p> </td> 
-   <td colname="col2"> <p> De callback <span class="codeph"> _satelliet.pageBottom()</span> is niet gevonden binnen de <span class="codeph"> &lt;body&gt;</span> van de pagina, die is vereist voor Starten. </p> <p>Deze test mislukt als de <span class="codeph"> pageBottom- </span>aanroep helemaal niet op de pagina staat of als deze in de <span class="codeph"> &lt;head&gt;</span> -tag (of een andere onverwachte locatie) staat. De waarde wordt alleen doorgegeven als pageBottom <span class="codeph"> zich ergens in de tag</span> &lt;body&gt; <span class="codeph"></span> bevindt. Als het helemaal niet op de pagina is, zal het niet functioneren en de andere twee <span class="codeph"> pageBottom</span> tests zullen ook ontbreken. </p> </td> 
-   <td colname="col3"> <p>Voeg het inlinescript direct vóór de afsluitende <span class="codeph"> &lt;/body&gt;</span> -tag toe voor de juiste opstartfunctionaliteit. </p> </td> 
+   <td colname="col2"> <p> De callback <span class="codeph"> _satelliet.pageBottom()</span> is niet gevonden binnen de <span class="codeph"> &lt;body&gt;</span> van de pagina, die is vereist voor het starten van het Platform. </p> <p>Deze test mislukt als de <span class="codeph"> pageBottom- </span>aanroep helemaal niet op de pagina staat of als deze in de <span class="codeph"> &lt;head&gt;</span> -tag (of een andere onverwachte locatie) staat. De waarde wordt alleen doorgegeven als pageBottom <span class="codeph"> zich ergens in de tag</span> &lt;body&gt; <span class="codeph"></span> bevindt. Als het helemaal niet op de pagina is, zal het niet functioneren en de andere twee <span class="codeph"> pageBottom</span> tests zullen ook ontbreken. </p> </td> 
+   <td colname="col3"> <p>Voeg het inline script toe vlak vóór de afsluitende <span class="codeph"> &lt;/body&gt;</span> -tag om de juiste functionaliteit voor starten van Platforms te garanderen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Starten - pageBottom callback zou niet moeten bestaan wanneer asynchroon opgesteld</b> </p> <p>Dikte: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Extra informatie</a> </p> </td> 
-   <td colname="col2"> <p>De callback <span class="codeph"> _satelliet.pageBottom()</span> is gevonden op de pagina. Dit zou niet het geval moeten zijn wanneer Launch asynchroon wordt geïmplementeerd. </p> </td> 
-   <td colname="col3"> <p>Verwijder het<span class="codeph"> script _satelliet.pageBottom()</span> om de juiste opstartfunctionaliteit in te schakelen. </p> </td> 
+   <td colname="col2"> <p>De callback <span class="codeph"> _satelliet.pageBottom()</span> is gevonden op de pagina. Dit zou niet het geval moeten zijn wanneer Platform starten asynchroon wordt geïmplementeerd. </p> </td> 
+   <td colname="col3"> <p>Verwijder het<span class="codeph"> script _satelliet.pageBottom()</span> om de juiste functionaliteit voor het starten van Platforms in te schakelen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
