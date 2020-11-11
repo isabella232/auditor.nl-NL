@@ -1,18 +1,21 @@
 ---
-description: Deze verwijzing verstrekt meer informatie over de tests Auditor presteert.
-seo-description: Deze verwijzing verstrekt meer informatie over de tests Auditor presteert.
+description: Deze naslaggids bevat meer informatie over de tests die Adobe Experience Platform Auditor uitvoert.
+seo-description: Deze naslaggids bevat meer informatie over de tests die Adobe Experience Platform Auditor uitvoert.
 seo-title: Testverwijzing
 title: Testverwijzing
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
 translation-type: tm+mt
-source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 11%
 
 ---
 
 
 # Testverwijzing{#test-reference}
 
-Deze verwijzing verstrekt meer informatie over de tests Auditor presteert.
+Deze naslaggids bevat meer informatie over de tests die Adobe Experience Platform Auditor uitvoert.
 
 **Huidige versie van testrubriek:** 1.0.5.
 
@@ -25,24 +28,24 @@ Elke test is gewogen. Uw testscore is gelijk aan het toegewezen gewicht. Als u e
 * 4: Als dit mislukt, worden mogelijk onbetrouwbare gegevens verzameld.
 * 5: Als dit mislukt, ziet u mogelijk gegevensverlies.
 
-Tests zijn geslaagd/gezakt. Zij testen of aan de testvoorwaarden wordt voldaan of niet aan de testvoorwaarden wordt voldaan, zodat er geen gedeeltelijke scores voor gedeeltelijke naleving zijn. Als de test bijvoorbeeld controleert of er een nieuwste versie van een Adobe-oplossing is en u slechts één versie achterloopt, krijgt u dezelfde score als wanneer u vijf versies terug bent. De meest recente versies bevatten prestatieverbeteringen en foutoplossingen. Daarom is het raadzaam de meest recente versie te gebruiken.
+Tests zijn geslaagd/gezakt. Zij testen of aan de testvoorwaarden wordt voldaan of niet aan de testvoorwaarden wordt voldaan, zodat er geen gedeeltelijke scores voor gedeeltelijke naleving zijn. Bijvoorbeeld, als de test op de recentste versie van een oplossing van de Adobe controleert en u slechts één versie achter bent, krijgt u de zelfde score alsof u vijf versies terug bent. De meest recente versies bevatten prestatieverbeteringen en foutoplossingen. Daarom is het raadzaam de meest recente versie te gebruiken.
 
 Het wordt **ten zeerste aanbevolen** om resultaten van niveau 4 of 5 te corrigeren.
 
 Het wordt **aanbevolen** om resultaten van niveau 1 tot 3 te corrigeren.
 
-## Welke technologieën van Adobe beoordelen Auditor? {#section-52833b71c05448aaae508e6070a387f5}
+## Welke technologieën van Adobe geeft de Auditor van de Platform? {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
-* Cloud Search voor advertenties
-* Analyse
+* Advertising Cloud Search
+* Analytics
 * DTM
-* Experience Cloud ID Service (voorheen Cloud ID Service)
-* Doel
+* Experience Cloud ID Service (voorheen Marketing Cloud ID Service)
+* Target
 
 De volgende oplossingen van Adobe zijn momenteel niet inbegrepen in de testrubriek. Ondersteuning voor deze oplossingen is gepland voor toekomstige updates.
 
-* Creative Cloud voor advertenties
-* Auditiebeheer
-* Campagne
-* Starten
+* Advertising Cloud Creative
+* Audience Manager
+* Campaign
+* Adobe Experience Platform Launch
