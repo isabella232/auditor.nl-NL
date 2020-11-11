@@ -1,13 +1,13 @@
 ---
-description: Deze verwijzing verstrekt meer informatie over de tests Auditor voor markeringsaanwezigheid uitvoert.
-seo-description: Deze verwijzing verstrekt meer informatie over de tests Auditor voor markeringsaanwezigheid uitvoert.
+description: Deze naslaggids bevat meer informatie over de tests die Adobe Experience Platform Auditor uitvoert voor de aanwezigheid van tags.
+seo-description: Deze naslaggids bevat meer informatie over de tests die Adobe Experience Platform Auditor uitvoert voor de aanwezigheid van tags.
 seo-title: Tagaanwezigheid
 title: Tagaanwezigheid
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
 translation-type: tm+mt
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '958'
 ht-degree: 5%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 # Tagaanwezigheid
 
-Deze verwijzing verstrekt meer informatie over de tests Auditor voor markeringsaanwezigheid uitvoert.
+Deze naslaggids bevat meer informatie over de tests die Adobe Experience Platform Auditor uitvoert voor de aanwezigheid van tags.
 
-De controleur evalueert of de markering bestaat, en of het op de juiste plaats in uw paginacode is.
+De Auditor van het Platform evalueert of de markering bestaat, en of het op de juiste plaats in uw paginacode is.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -31,12 +31,12 @@ De controleur evalueert of de markering bestaat, en of het op de juiste plaats i
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - Code-aanwezigheid</b> </p> <p>Dikte: 5 </p> </td> 
    <td colname="col2"> <p> De Advertising Cloud-tag is niet beschikbaar in het DOM. </p> </td> 
-   <td colname="col3"> <p>Implementeer de Advertising Cloud-tag met de Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Implementeer de Advertising Cloud-tag met de Advertising Cloud-extensie voor Adobe Experience Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - Geïmplementeerde segmentpixel</b> </p> <p>Dikte: 5 </p> </td> 
    <td colname="col2"> <p> Upgrade de Advertising Cloud-segmentpixels naar de nieuwe Advertising Cloud-tags voor alleen afbeeldingen. Het gebruik van verouderde AMO-segmenttags kan leiden tot gegevensverlies. </p> </td> 
-   <td colname="col3"> <p>Implementeer de Advertising Cloud-segmentpixel met de Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Implementeer het Advertising Cloud-segmentpixel met de Advertising Cloud-extensie voor het starten van Platforms. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analyse - geladen in DOM</b> </p> <p>Dikte: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external"> Extra informatie</a> </p> </td> 
@@ -96,15 +96,15 @@ De controleur evalueert of de markering bestaat, en of het op de juiste plaats i
     <!--
       1.0.5 
     --> <p><b> Starten - Bibliotheek geladen</b> </p> <p>Dikte: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Extra informatie</a> </p> </td> 
-   <td colname="col2"> <p> Een globaal _satelliet-object is niet gevonden in de DOM. Starten is niet geïnstalleerd of kan niet worden uitgevoerd. </p> </td> 
-   <td colname="col3"> <p>Controleer of de bibliotheek Launch op de pagina is geïmplementeerd en niet wordt geblokkeerd door volgende scriptactiviteiten. </p> </td> 
+   <td colname="col2"> <p> Een globaal _satelliet-object is niet gevonden in de DOM. Platform starten is niet geïnstalleerd of kan niet worden uitgevoerd. </p> </td> 
+   <td colname="col3"> <p>Verifieer dat de bibliotheek van de Lancering van het Platform op de pagina wordt uitgevoerd en niet door verdere manuscriptactiviteiten geblokkeerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Starten - Er zijn niet meerdere ingesloten scripts</b> </p> <p>Dikte: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Extra informatie</a> </p> </td> 
-   <td colname="col2"> <p>Er mogen niet meerdere insluitscripts op de pagina worden geladen. Productieplaatsen mogen slechts één opstartbibliotheek laden. </p> </td> 
+   <td colname="col2"> <p>Er mogen niet meerdere insluitscripts op de pagina worden geladen. Productieplaatsen mogen slechts één Platform starten bibliotheek laden. </p> </td> 
    <td colname="col3"> <p>Controleer of alleen de productiebibliotheek op de pagina wordt geladen. </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ De controleur evalueert of de markering bestaat, en of het op de juiste plaats i
     <!--
       1.0.5 
     --> <p><b>Starten - pageBottom callback bestaat in &lt;body&gt;</b> </p> <p>Dikte: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Extra informatie</a> </p> </td> 
-   <td colname="col2"> <p> De callback <span class="codeph"> _satelliet.pageBottom()</span> is niet gevonden binnen de <span class="codeph"> &lt;body&gt;</span> van de pagina, die is vereist voor Starten. </p> <p>Deze test mislukt als de <span class="codeph"> pageBottom- </span>aanroep helemaal niet op de pagina staat of als deze in de <span class="codeph"> &lt;head&gt;</span> -tag (of een andere onverwachte locatie) staat. De waarde wordt alleen doorgegeven als pageBottom <span class="codeph"> zich ergens in de tag</span> &lt;body&gt; <span class="codeph"></span> bevindt. Als het helemaal niet op de pagina is, zal het niet functioneren en de andere twee <span class="codeph"> pageBottom</span> tests zullen ook ontbreken. </p> </td> 
-   <td colname="col3"> <p>Voeg het inlinescript direct vóór de afsluitende <span class="codeph"> &lt;/body&gt;</span> -tag toe voor de juiste opstartfunctionaliteit. </p> </td> 
+   <td colname="col2"> <p> De callback <span class="codeph"> _satelliet.pageBottom()</span> is niet gevonden binnen de <span class="codeph"> &lt;body&gt;</span> van de pagina, die is vereist voor het starten van het Platform. </p> <p>Deze test mislukt als de <span class="codeph"> pageBottom- </span>aanroep helemaal niet op de pagina staat of als deze in de <span class="codeph"> &lt;head&gt;</span> -tag (of een andere onverwachte locatie) staat. De waarde wordt alleen doorgegeven als pageBottom <span class="codeph"> zich ergens in de tag</span> &lt;body&gt; <span class="codeph"></span> bevindt. Als het helemaal niet op de pagina is, zal het niet functioneren en de andere twee <span class="codeph"> pageBottom</span> tests zullen ook ontbreken. </p> </td> 
+   <td colname="col3"> <p>Voeg het inline script toe vlak vóór de afsluitende <span class="codeph"> &lt;/body&gt;</span> -tag om de juiste functionaliteit voor starten van Platforms te garanderen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Starten - pageBottom callback zou niet moeten bestaan wanneer asynchroon opgesteld</b> </p> <p>Dikte: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Extra informatie</a> </p> </td> 
-   <td colname="col2"> <p>De callback <span class="codeph"> _satelliet.pageBottom()</span> is gevonden op de pagina. Dit zou niet het geval moeten zijn wanneer Launch asynchroon wordt geïmplementeerd. </p> </td> 
-   <td colname="col3"> <p>Verwijder het<span class="codeph"> script _satelliet.pageBottom()</span> om de juiste opstartfunctionaliteit in te schakelen. </p> </td> 
+   <td colname="col2"> <p>De callback <span class="codeph"> _satelliet.pageBottom()</span> is gevonden op de pagina. Dit zou niet het geval moeten zijn wanneer Platform starten asynchroon wordt geïmplementeerd. </p> </td> 
+   <td colname="col3"> <p>Verwijder het<span class="codeph"> script _satelliet.pageBottom()</span> om de juiste functionaliteit voor het starten van Platforms in te schakelen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
