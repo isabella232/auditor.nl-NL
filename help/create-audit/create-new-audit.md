@@ -1,13 +1,13 @@
 ---
-description: Nieuwe controle instellen voor de controleur
-seo-description: Nieuwe controle instellen voor de controleur
-seo-title: Nieuwe controle instellen voor de controleur
-title: Nieuwe controle instellen voor de controleur
+description: Nieuwe audit maken in Adobe Experience Platform Auditor
+seo-description: Nieuwe audit maken in Adobe Experience Platform Auditor
+seo-title: Nieuwe audit maken in Adobe Experience Platform Auditor
+title: Nieuwe audit maken in Adobe Experience Platform Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Gebruik desgewenst de koppeling onder aan de pagina om toegang te krijgen tot ee
    De naam mag maximaal 250 tekens lang zijn.
 1. (Vereist) Geef de eerste URL op.
 
-   Het protocol wordt vereist wanneer het specificeren van beginnende URL. De beginnende URL is de pagina waar de controle begint kruipend. Zodra begonnen, kruipt de Auditor tot 500 pagina&#39;s, na verbindingen die bij de beginnende URL beginnen. Zie Filters [opnemen en uitsluiten](../create-audit/filters.md) voor meer informatie. De eerste URL kan maximaal 250 tekens lang zijn.
+   Het protocol wordt vereist wanneer het specificeren van beginnende URL. De beginnende URL is de pagina waar de controle begint kruipend. Als de Adobe Experience Platform Auditor eenmaal is gestart, doorloopt deze tot 500 pagina&#39;s en worden koppelingen weergegeven die beginnen bij de startpagina van de URL. Zie Filters [opnemen en uitsluiten](../create-audit/filters.md) voor meer informatie. De eerste URL kan maximaal 250 tekens lang zijn.
 
    >[!NOTE]
    >
@@ -43,22 +43,23 @@ Gebruik desgewenst de koppeling onder aan de pagina om toegang te krijgen tot ee
    U kunt meerdere e-mails opgeven door elk adres te scheiden met een komma. De aanvrager wordt standaard op de hoogte gesteld. E-mailadressen worden in real-time gevalideerd. Als u een ongeldig adres ingaat, wordt uw op het scherm op de hoogte gebracht.
 
    Elke e-mail is beperkt tot maximaal 250 tekens, inclusief het einde van het domein (bijvoorbeeld .com).
-1. Geef Inclusief filters op.
 
-   Dit veld kan exacte URL&#39;s, gedeeltelijke URL&#39;s of reguliere expressies bevatten. Gebruik dit veld voor criteria waaraan elke URL moet voldoen. Eventuele gekropen URL&#39;s die niet overeenkomen met de criteria voor Inclusief filter, worden niet opgenomen in de auditresultaten.
+1. Geef het volgende op [!UICONTROL Include Filters].
+
+   Dit veld kan exacte URL&#39;s, gedeeltelijke URL&#39;s of reguliere expressies bevatten. Gebruik dit veld voor criteria waaraan elke URL moet voldoen. Eventuele gekropen URL&#39;s die niet voldoen aan de [!UICONTROL Include Filter] criteria worden niet opgenomen in de auditresultaten.
 
    U zou folders kunnen ingaan u de controle wilt aftasten. Of, kunt u dwars-domein of zelfverwijzingscontrole uitvoeren, waar u de controle op één domein moet beginnen en op een ander beëindigen. Typ hiertoe de domeinen die u wilt doorlopen. voor complexe URL-patronen gebruikt u een reguliere expressie.
 
    >[!NOTE]
    >
-   >Als u een pagina in uw filters opneemt, maar deze niet is verbonden met de eerste URL, of de controleur scant 500 pagina&#39;s voordat deze pagina wordt bereikt, wordt de pagina niet gescand en wordt deze niet opgenomen in de testresultaten.
+   >Als u een pagina in uw filters opneemt, maar deze niet is verbonden met de eerste URL, of als de controleur van het Platform 500 pagina&#39;s scant voordat deze pagina wordt bereikt, wordt de pagina niet gescand en wordt deze niet opgenomen in de testresultaten.
 
    De include-filters zijn beperkt tot 1000 tekens per regel.
 
    Zie Lijst [](../create-audit/filters.md) opnemen voor meer informatie.
 1. Geef filters voor uitsluiten op.
 
-   De lijst met uitsluitingen voorkomt dat URL&#39;s worden gecontroleerd. Gebruik exacte URL&#39;s, gedeeltelijke URL&#39;s of reguliere expressies, net als in de lijst Opnemen.
+   Hiermee [!UICONTROL Exclude List] voorkomt u dat URL&#39;s worden gecontroleerd. Gebruik exacte URL&#39;s, gedeeltelijke URL&#39;s of reguliere expressies, net als in de [!UICONTROL Include List]URL.
 
    Een gebruikelijke manier is om een logout-koppeling uit te sluiten als de audit een gebruikerssessie heeft (bijvoorbeeld: `/logout`, dat wil zeggen elke URL die de tekenreeks bevat `/logout`).
 
