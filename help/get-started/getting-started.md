@@ -1,14 +1,14 @@
 ---
-description: Aan de slag met de controleur
-seo-description: Aan de slag met de controleur
+description: Aan de slag met Adobe Experience Platform Auditor
+seo-description: Aan de slag met Adobe Experience Platform Auditor
 seo-title: Aan de slag
 title: Aan de slag
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
 translation-type: tm+mt
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 12%
+source-wordcount: '235'
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-De eerste keer dat u Auditor gebruikt, moet u de Auditor-overeenkomst voltooien en accepteren. Auditor is ontwikkeld als een samenwerkingsproject tussen Adobe en ObservePoint. Auditor-gebruikers kunnen de beperkte ObservePoint-functionaliteit zonder extra kosten gebruiken. Om Auditor te gebruiken, moet u opt-in aan mededelingen van ObservePoint.
+De eerste keer dat u [!DNL Adobe Experience Platform Auditor]de overeenkomst gebruikt, moet u de [!DNL Platform Auditor] overeenkomst voltooien en accepteren. [!DNL Platform Auditor] is ontwikkeld als een samenwerkingsinspanning tussen [!DNL Adobe] en [!DNL ObservePoint]. De gebruikers van de Auditor van het Platform kunnen beperkte functionaliteit ObservePoint voor geen extra kosten gebruiken. Om de Auditor van het Platform te gebruiken, moet u opt-in aan mededelingen van ObservePoint.
 
 ## De eerste scan uitvoeren {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,9 +29,9 @@ De eerste keer dat u Auditor gebruikt, moet u de Auditor-overeenkomst voltooien 
 
    ![](assets/activate.png)
 
-1. Selecteer Auditor en ga akkoord met de Gebruiksvoorwaarden.
+1. Selecteer de Gebruiksvoorwaarden **[!UICONTROL Auditor]** en accepteer deze.
 
-   De pagina Auditor biedt u een dashboard met vorige scans, samen met de optie om een nieuwe scan uit te voeren.
+   De pagina van de Auditor van het Platform geeft u een dashboard van vorige scans, samen met de optie om een nieuwe aftasten in werking te stellen.
 
    ![](assets/home.png)
 
