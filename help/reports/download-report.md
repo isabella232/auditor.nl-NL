@@ -5,7 +5,10 @@ seo-title: Rapport downloaden
 title: Rapport downloaden
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
 translation-type: tm+mt
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ Het rapport toont of elke URL overgaat of ontbreekt.
 
 Het rapport kan op de Scorecard pagina in het gebruikersinterface worden bekeken. U kunt het rapport ook downloaden:
 
-1. Klik in de lijst Auditor of op een scorecard op **[!UICONTROL Download Report]**.
+1. Klik op de lijst Adobe Experience Platform Auditor of op een scorecard **[!UICONTROL Download Report]**.
 
    U kunt het rapport downloaden als spreadsheet of Pdf- dossier.
 1. Geef op of u het bestand wilt openen of opslaan.
@@ -34,4 +37,4 @@ De PDF bevat de volgende informatie:
 * Totale score
 * Score per categorie
 * Eenheidstests toegepast met URL&#39;s die zijn mislukt
-* Aanbevelingen en documentkoppeling Help per test
+* Koppeling tussen Recommendations- en Help-doc per test
