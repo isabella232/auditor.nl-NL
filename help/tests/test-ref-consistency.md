@@ -1,23 +1,23 @@
 ---
-description: Deze verwijzing verstrekt meer informatie over de tests Auditor voor markeringsconsistentie presteert.
-seo-description: Deze verwijzing verstrekt meer informatie over de tests Auditor voor markeringsconsistentie presteert.
+description: Deze naslaggids bevat meer informatie over de tests die Adobe Experience Platform Auditor uitvoert voor de consistentie van tags.
+seo-description: Deze naslaggids bevat meer informatie over de tests die Adobe Experience Platform Auditor uitvoert voor de consistentie van tags.
 seo-title: Codeconsistentie
 title: Codeconsistentie
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
 translation-type: tm+mt
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 9%
+source-wordcount: '123'
+ht-degree: 8%
 
 ---
 
 
 # Codeconsistentie
 
-Deze verwijzing verstrekt meer informatie over de tests Auditor voor markeringsconsistentie presteert.
+Deze naslaggids bevat meer informatie over de tests die Adobe Experience Platform Auditor uitvoert voor de consistentie van tags.
 
-De consistentietests van de controleur zoeken naar inconsistenties op alle gescande pagina&#39;s. Dit zijn waarden of configuraties die voor alle pagina&#39;s op de site hetzelfde moeten zijn om nauwkeurige gegevensverzameling te garanderen.
+De consistentietests van de controleur van het Platform zoeken naar inconsistenties op alle gescande pagina&#39;s. Dit zijn waarden of configuraties die voor alle pagina&#39;s op de site hetzelfde moeten zijn om nauwkeurige gegevensverzameling te garanderen.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
