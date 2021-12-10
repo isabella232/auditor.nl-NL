@@ -1,20 +1,12 @@
 ---
 cloud: Experience Cloud
 solution: Experience Platform, Data Collection
-solution-title: Informatie en ondersteuning
-solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
-solution-image: help/assets/experience-cloud-logo-24.png
-getting-started-title: Aan de slag
-getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/analytics/how-to/adobe-launch-publishing-process.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/auditor.nl-NL
-index: true
-translation-type: tm+mt
-source-git-commit: 5dbbd05323172302682643de2e8ea867e2e186c6
+hide: true
+source-git-commit: 09d2d6e0764bdf799d2105f62bfc53cd5bfefe7f
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 83%
+source-wordcount: '111'
+ht-degree: 96%
 
 ---
 
