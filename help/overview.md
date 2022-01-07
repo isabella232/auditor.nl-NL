@@ -1,44 +1,17 @@
 ---
-description: Technische documentatie voor de controleur van het Experience Platform.
-seo-description: Technische documentatie voor Adobe Experience Platform Auditor.
-seo-title: 'Technische documentatie voor de Adobe Experience Platform Auditor '
-title: Overzicht van Adobe Experience Platform Auditor - Tech Docs
+title: Overzicht van Adobe Experience Platform Auditor
+description: In dit document worden Adobe Experience Platform Auditor en de opvolgers ervan behandeld.
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 326ae443-2974-4f0c-8c16-bfd2b8a6a70c
+source-git-commit: 9876e66a70de679cf9eadb8fcc911cccf9308f88
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
-
 # Overzicht van Adobe Experience Platform Auditor {#adobe-experience-cloud-auditor}
 
-Adobe Experience Platform Auditor is een dienst van de Adobe Experience Platform die samen met [ObservePoint](https://www.observepoint.com/)is ontwikkeld, experts in het valideren van digitale implementaties. Deze handleiding bevat technische documentatie en zelfhulp voor de controleur van het Platform.
+Adobe Experience Platform Auditor was een systeem dat u in staat stelde rapporten te produceren die uw implementatie van Adobe Experience Cloud beoordelen en wijzers op geven hoe te om het te verbeteren. De Adobe Experience Platform Auditor heeft het einde van de levensduur bereikt en is niet langer actief.
 
-Met de Auditor van de Platform, ontvangen de gebruikers van Adobe Experience Cloud een rapport dat hun implementatie van Adobe Experience Cloud graadt en wijzers op geeft hoe te om het te verbeteren. De Auditor van de Platform helpt u meer waarde van uw producten van de Adobe krijgen, individueel en collectief.
-
-Met de Auditor van de Platform, kunt u:
-
-* **Scan** 500 webpagina&#39;s tegelijk op Adobe-technologie. Gebruik geavanceerde filters om pagina&#39;s op te nemen of uit te sluiten. U kunt één controle tegelijkertijd en een onbeperkt aantal controles in werking stellen.
-
-* **Begrijp** een rapport ontvangen dat uw implementaties van Adobe op tagaanwezigheid, configuratie, en consistentie wordt gebaseerd.
-
-* **Verbeter** krijg aanbevelingen op hoe te om uw implementatie te bevorderen om zich aan beste praktijken te richten zodat krijgt u de volledige waarde van uw investering van de Adobe. De controleur van het Platform gaat verder dan globale aanbevelingen en vertelt u precies wat met een specifieke implementatie verkeerd is, de webpagina waar de kwestie werd gevonden, en geeft dan richtlijnen over hoe te om het te bevestigen.
-
-Uw website moet correct worden geïmplementeerd, zodat u meer zaken kunt doen en geweldige ervaringen kunt bieden. Als dat niet het geval is, levert de software een fractie van zijn potentiële waarde, of helemaal niets.
-
-Maar het is een zware last om complexe implementaties op websites in een constante staat van stroom te houden. De Auditor van de Platform zet deze last om in een kans die het rendement van uw Adobe investering verhoogt.
-
-Door u toe te staan om uw eigen implementaties problemen op te lossen en te verbeteren, geeft de Controleur van de Platform u grotere controle over uw implementatietags en, daarom, uw gegevens. Hierdoor is het minder nodig contact op te nemen met de klantenservice voor vragen over uw implementatietags.
-
-De controleur van de Platform is ontwikkeld als een samenwerkingsproject tussen Adobe en ObservePoint. De gebruikers van de Auditor van het Platform kunnen beperkte functionaliteit ObservePoint voor geen extra kosten gebruiken. Om de Auditor van het Platform te gebruiken, moet u opt-in aan mededelingen van ObservePoint.
-
-## Forum van de Auditor van de Platform {#section-59846f1856bc40aba23d02fdd9198e25}
-
-Als u hulp nodig hebt om aan de slag te gaan, vragen te stellen of toekomstige verbeteringen voor te stellen of in stemming te brengen, bezoek dan het Communautair Forum [van de Auditor van de](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor) Platform om met deskundigen en Adobe te verbinden.
-
-## Gegevens vrijgeven {#section-be3e331a123d40f185aa59f23f69355e}
-
-Voor informatie over de meest recente versie, zie de Nota&#39;s [van de Versie van de Auditor van het](release-notes.md)Platform.
+Terwijl het standalone systeem is ontmanteld, kunt u alle tests van de Controleur nog in plaats daarvan in werking stellen gebruikend browser van Adobe Experience Platform Debugger uitbreiding. Raadpleeg voor meer informatie de [Documentatie foutopsporing Experience Platform](https://experienceleague.adobe.com/docs/debugger/using-v2/experience-cloud-debugger.html).
