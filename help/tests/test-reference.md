@@ -1,17 +1,16 @@
 ---
 description: Deze naslaggids bevat meer informatie over de tests die Adobe Experience Platform Auditor uitvoert.
-seo-description: Deze naslaggids bevat meer informatie over de tests die Adobe Experience Platform Auditor uitvoert.
-seo-title: Testverwijzing
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs.
+seo-title: Test reference
 title: Testverwijzing
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: b368bf43-2007-4f98-a965-ed8fc07c0fdf
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 11%
+source-wordcount: '278'
+ht-degree: 12%
 
 ---
-
 
 # Testverwijzing{#test-reference}
 

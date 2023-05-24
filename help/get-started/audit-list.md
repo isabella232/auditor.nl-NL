@@ -1,17 +1,16 @@
 ---
 description: De pagina van de Lijst van de Controle toont informatie over al uw controles.
-seo-description: De pagina van de Lijst van de Controle toont informatie over al uw controles.
-seo-title: Pagina met controlelijsten
+seo-description: The Audit List page shows information about all of your audits.
+seo-title: Audit List page
 title: Pagina met controlelijsten
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 2ba22dc7-f296-461e-90d4-1cb330bcde24
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '216'
 ht-degree: 1%
 
 ---
-
 
 # Pagina met controlelijsten{#audit-list-page}
 

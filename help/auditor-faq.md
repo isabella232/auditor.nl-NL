@@ -1,17 +1,16 @@
 ---
 description: Algemene vragen en antwoorden over de Adobe Experience Platform Auditor
-seo-description: Algemene vragen en antwoorden over de Adobe Experience Platform Auditor
-seo-title: Veelgestelde vragen over Adobe Experience Platform Auditor
+seo-description: Common questions and answers about Adobe Experience Platform Auditor
+seo-title: Adobe Experience Platform Auditor FAQ
 title: Veelgestelde vragen over Adobe Experience Platform Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 75ab4497-5822-4f64-9b6d-6cbf13687e8d
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '973'
 ht-degree: 3%
 
 ---
-
 
 # Veelgestelde vragen over Adobe Experience Platform Auditor{#auditor-faq}
 
@@ -41,7 +40,7 @@ Alle Adobe Experience Cloud-klantenorganisaties krijgen gratis toegang tot de ac
 
 ## Hoe heb ik toegang tot de Auditor van het Platform? {#section-531ff85f94384831a89cbb4109549daf}
 
-After logging in at [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com), you can find Platform Auditor by clicking on **[!UICONTROL Activation]** in the top navigation. U kunt ook rechtstreeks naar [https://auditor.adobe.com](https://auditor.adobe.com) gaan.
+Nadat u zich hebt aangemeld bij [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com)kunt u de Platform Auditor vinden door op **[!UICONTROL Activation]** in de bovenste navigatie. U kunt ook rechtstreeks naar [https://auditor.adobe.com](https://auditor.adobe.com) gaan.
 
 ## Welke technologieën van Adobe geeft de Auditor van de Platform? {#section-52833b71c05448aaae508e6070a387f5}
 
@@ -69,7 +68,7 @@ De ObservePoint-technologie doorloopt momenteel URL&#39;s die in documentkoppeli
 
 ## Hoe stel ik nieuwe criteria voor om de controleur van de Platform te testen? {#section-926e6ef9225b4f0bb19c2927d634cd77}
 
-You can submit test suggestions via the Platform Auditor Community by clicking **[!UICONTROL Share Feedback]** on this page: [https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor)
+U kunt testsuggesties via de Auditor Community van de Platform indienen door op **[!UICONTROL Share Feedback]** op deze pagina: [https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor)
 
 ## Hoe lang duurt een controle? {#section-5086ae27ef1f4671a9d951348654633a}
 
@@ -120,14 +119,14 @@ Alle aanbevelingen die via de Platform Auditor worden gedaan, zijn bedoeld om u 
 <table id="table_EE67775088344BDAA5126268072D6089"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>pageBottom callback last</b> </p> <p>Een _satelliet.pageBottom() functie is vereist voor een correcte implementatie DTM. Voeg het inlinescript toe vlak voor de afsluitende &lt;/body&gt;-tag om de juiste DTM-functionaliteit te garanderen. </p> </td> 
+   <td colname="col1"> <p><b>pageBottom callback last</b> </p> <p>Een _satelliet.pageBottom() functie is vereist voor een correcte implementatie DTM. Voeg het inlinescript onmiddellijk vóór het sluiten toe &lt;/body&gt; -tag voor een correcte DTM-functionaliteit. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Kan de Platform Auditor de niet-Adobe-technologie controleren? {#section-f6e73c56083b4815bbf901296038bcd4}
 
-Nee. Nochtans, laat het volledige aanbod ObservePoint klanten toe om al uw marketing markeringen en technologieën te controleren en te controleren. Als Adobe-klant hebt u toegang tot een gratis proefaccount. Ga naar de pagina Auditor Platform van [ObservePoint voor toegang tot uw proefaccount](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
+Nee. Nochtans, laat het volledige aanbod ObservePoint klanten toe om al uw marketing markeringen en technologieën te controleren en te controleren. Als Adobe-klant hebt u toegang tot een gratis proefaccount. Ga naar [Platform Auditor Page van ObservePoint](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
 ## Kan ik mijn IP adressen goedkeuren om het aftasten van pagina&#39;s toe te staan die door login worden beschermd? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
@@ -137,4 +136,4 @@ Deze functionaliteit wordt momenteel niet ondersteund zonder het volledige Obser
 
 Het kruipen wordt uitgevoerd door ObservePoint, zodat worden de zelfde IP adressen gebruikt.
 
-Zie de documentatie [van](https://help.observepoint.com/articles/2312494-observepoint-whitelisting-and-proxy-list) ObservePoint voor meer details.
+Zie de [Documentatie voor observerpunt](https://help.observepoint.com/articles/2312494-observepoint-whitelisting-and-proxy-list) voor meer informatie .

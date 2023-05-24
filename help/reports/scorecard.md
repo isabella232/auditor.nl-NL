@@ -1,17 +1,16 @@
 ---
 description: Nadat u een test in werking stelt, toont scorecard informatie over een controle.
-seo-description: Nadat u een test in werking stelt, toont scorecard informatie over een controle.
+seo-description: After you run a test, the scorecard shows information about an audit.
 seo-title: Scorecard
 title: Scorecard
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: a2ccaf7d-744f-42f0-8193-1c6a93f7a09a
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 3%
+source-wordcount: '414'
+ht-degree: 4%
 
 ---
-
 
 # Scorecard{#scorecard}
 
@@ -33,7 +32,7 @@ Gebruik scorecard om te zien hoe de controle in de volgende categorieën scoorde
 * Configuratie
 
    Evalueert de tags aan de hand van andere regels en aanbevolen aanbevolen procedures.
-* Waarschuwing
+* Melding
 
    Waarschuwingen tonen problemen waarvan je op de hoogte moet zijn, maar die geen invloed hebben op je score.
 
@@ -46,9 +45,9 @@ Uw score hangt af van het gewicht van elke test en of u slaagt of niet. Als u sl
 * 4: Als dit mislukt, worden mogelijk onbetrouwbare gegevens verzameld.
 * 5: Als dit mislukt, ziet u mogelijk gegevensverlies.
 
-De scorecard maakt een lijst van om het even welke niveau 4 of 5 kwesties als **hoogst geadviseerd** die u bevestigt.
+De scorecard vermeldt om het even welke niveau 4 of 5 kwesties als **aanbevolen** dat u wilt herstellen.
 
-De scorecard maakt een lijst van om het even welke niveau 1 tot 3 kwesties zoals **geadviseerd** die u bevestigt.
+De scorecard maakt een lijst van om het even welk niveau 1 tot 3 kwesties als **aanbevolen** dat u wilt herstellen.
 
 Klik op **[!UICONTROL Download the Report]** om een - of PDF-bestand te downloaden dat de informatie bevat die door de controle wordt gerapporteerd.[!DNL Excel]
 
@@ -62,4 +61,4 @@ Klik op de categorieën boven aan het scherm om de problemen in elke categorie w
 
 U kunt lijsten weergeven van de URL&#39;s die tijdens de test zijn geslaagd of mislukt.
 
-Klik in de scorecard op een testnaam of de **[!UICONTROL See All]** koppeling onder elke categoriekop. Dit brengt u naar de details van de tests. Voor elke test, kunt u de testbeschrijving en een lijst van om het even welke URL zien die ontbrak en geslaagd. Deze informatie wordt ook opgenomen in gedownloade rapporten.
+Van scorecard, klik een testnaam of **[!UICONTROL See All]** koppeling onder elke rubriek van de categorie. Dit brengt u naar de details van de tests. Voor elke test, kunt u de testbeschrijving en een lijst van om het even welke URL zien die ontbrak en geslaagd. Deze informatie wordt ook opgenomen in gedownloade rapporten.

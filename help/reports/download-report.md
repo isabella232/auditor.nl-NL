@@ -1,17 +1,16 @@
 ---
 description: Het rapport toont of elke URL overgaat of ontbreekt.
-seo-description: Het rapport toont of elke URL overgaat of ontbreekt.
-seo-title: Rapport downloaden
+seo-description: The report shows whether each URL passes or fails.
+seo-title: Download report
 title: Rapport downloaden
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 2b072b7a-0de3-47f2-be38-9d82bd7da807
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
-
 
 # Rapport downloaden{#download-report}
 
@@ -19,9 +18,9 @@ Het rapport toont of elke URL overgaat of ontbreekt.
 
 Het rapport kan op de Scorecard pagina in het gebruikersinterface worden bekeken. U kunt het rapport ook downloaden:
 
-1. Klik op de lijst Adobe Experience Platform Auditor of op een scorecard **[!UICONTROL Download Report]**.
+1. Klik in de lijst Adobe Experience Platform Auditor of in een scorecard op **[!UICONTROL Download Report]**.
 
-   U kunt het rapport downloaden als spreadsheet of Pdf- dossier.
+   U kunt het rapport downloaden als spreadsheet of PDF-bestand.
 1. Geef op of u het bestand wilt openen of opslaan.
 
 1. Klik op **[!UICONTROL OK]**.
@@ -30,7 +29,7 @@ Het rapport kan op de Scorecard pagina in het gebruikersinterface worden bekeken
 
    ![](assets/sheet.png)
 
-De PDF bevat de volgende informatie:
+De PDF geeft de volgende informatie weer:
 
 * Instellingen voor de controle
 * Tijdstempel voltooien

@@ -1,17 +1,16 @@
 ---
 description: Met Inclusief filters bepaalt u welke koppelingen een controle kan doorlopen vanaf de eerste URL. Met filters uitsluiten kan een controle koppelingen niet crawling.
-seo-description: Met Inclusief filters bepaalt u welke koppelingen een controle kan doorlopen vanaf de eerste URL. Met filters uitsluiten kan een controle koppelingen niet crawling.
-seo-title: Filters opnemen en uitsluiten
+seo-description: Include filters restrict what links an audit can crawl from the Starting URL. Exclude filters prevent an audit from crawling links.
+seo-title: Include and Exclude filters
 title: Filters opnemen en uitsluiten
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: d6bb1191-62ce-4292-913d-8c42b9136626
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
-
 
 # Filters opnemen en uitsluiten{#include-and-exclude-filters}
 
@@ -27,25 +26,25 @@ Met filters opnemen en filters uitsluiten geeft u richtlijnen voor audits. Door 
 
 Door Include filters, de filters van de Uitsluiting, of een combinatie beide toe te passen, kunnen de instructies betreffende welke verbindingen een controle kruipen worden gegeven.
 
-Elk item in het [!UICONTROL Include Filters] veld beperkt de scan tot alleen de pagina&#39;s die overeenkomen met dat item. Elk item in een [!UICONTROL Exclude Filters] veld voorkomt dat pagina&#39;s die overeenkomen met dat item worden gescand.
+Elk item in het dialoogvenster [!UICONTROL Include Filters] in het veld wordt de scan beperkt tot alleen de pagina&#39;s die overeenkomen met dat item. Elk item in een [!UICONTROL Exclude Filters] voorkomt dat pagina&#39;s die overeenkomen met dat item worden gescand.
 
 De filters Opnemen en Uitsluiten kunnen volledige URL&#39;s, gedeeltelijke URL&#39;s of reguliere expressies zijn die overeenkomen met een geldige pagina.
 
 ## Rangorde {#section-e9d42419dd3f459bb20e7a33c6104f12}
 
-1. **Het beginnen van URL** neemt belangrijkheid over al ander en zal altijd tijdens een controle worden bezocht, zelfs als een URL een punt in de filters van de Uitsluiting aanpast. De eerste URL wordt altijd vóór andere URL&#39;s bezocht.
+1. **URL starten** heeft voorrang op alle andere items en wordt altijd bezocht tijdens een controle, zelfs als een URL overeenkomt met een item in de filters Uitsluiten. De eerste URL wordt altijd vóór andere URL&#39;s bezocht.
 
    ![](assets/startingpage.png)
 
-   In de bovenstaande afbeelding worden koppelingen gevonden van de `document.links` eigenschap van de startpagina. Deze verbindingen kunnen door de controle worden gescand.
+   In de bovenstaande afbeelding worden in een controle koppelingen gevonden van de startpagina&#39;s `document.links` eigenschap. Deze verbindingen kunnen door de controle worden gescand.
 
-1. **Opnemen van URL&#39;s** moet zijn gekoppeld vanaf een startpagina, anders kunnen ze niet worden gedetecteerd en worden ze niet bezocht.
+1. **Inclusief URL&#39;s** moeten worden gekoppeld vanaf een startpagina, anders kunnen ze niet worden gedetecteerd en worden ze niet bezocht.
 
    ![](assets/includefilter.png)
 
    In de bovenstaande afbeelding worden door het toevoegen van een Include-filter de URL&#39;s die in aanmerking komen, beperkt tot de URL&#39;s die overeenkomen met het filter. Nu kunnen slechts vijf verbindingen door de controle worden gescand.
 
-1. **Met URL&#39;s** uitsluiten worden koppelingen niet meer in aanmerking genomen.
+1. **URL&#39;s uitsluiten** koppelingen niet langer in aanmerking komen.
 
    ![](assets/excludefilter.png)
 
@@ -78,7 +77,7 @@ Hierdoor kan elke koppeling die op de startpagina van de URL wordt gevonden, wor
 
 Het gebruiken van het gebrek omvat filter verstrekt een brede waaier voor een controle om te kruipen. Als u in bepaalde secties of pagina&#39;s wilt gaan werken, geeft u specifieke aanwijzingen voor de controle door filters toe te voegen in dit vak. In dat geval vervangt u de standaardwaarde door de directory&#39;s die de controle moet scannen. U kunt Include filters ook gebruiken om dwars-domein controle uit te voeren waar u de controle op één domein moet beginnen en op een ander beëindigen. Typ hiertoe de domeinen die u wilt doorlopen. Wanneer Include-filter-URL&#39;s worden gevonden, moeten deze in elk geval worden gevonden op een pagina die wordt gecontroleerd.
 
-De Include filters kunnen nauwkeurige URLs, gedeeltelijke URLs, of regelmatige uitdrukkingen bevatten. Als de URL voor het starten bijvoorbeeld is [!DNL http://mysite.com], kunnen de volgende pagina&#39;s standaard worden gescand (let op de vetgedrukte tekens):
+De Include filters kunnen nauwkeurige URLs, gedeeltelijke URLs, of regelmatige uitdrukkingen bevatten. Bijvoorbeeld als de startURL de [!DNL http://mysite.com], kunnen de volgende pagina&#39;s standaard worden gescand (vette letters):
 
 ```html
 http://mysite.com
@@ -92,7 +91,7 @@ http://
 <b>my</b>.mysite.com/products/products_and_services.html
 ```
 
-Gebruik voor complexe URL-patronen de reguliere-expressietestster van [ObservePoint](https://regex.observepoint.com/).
+Gebruik voor complexe URL-patronen [De reguliere-expressietestster van ObservePoint](https://regex.observepoint.com/).
 
 ## Filters uitsluiten {#section-00aa5e10c878473b91ba0844bebe7ca9}
 
@@ -102,10 +101,10 @@ De filters van de Uitsluiting verhinderen URLs worden gecontroleerd. U kunt exac
 
 U kunt uw filters en URLs binnen de Auditor van het Platform testen.
 
-Klik tijdens het maken van de controle op **[!UICONTROL Test Advanced Filters]**. Voer de filters en URL&#39;s in en klik op **[!UICONTROL Apply]**.
+Klik tijdens het maken van uw controle op **[!UICONTROL Test Advanced Filters]**. Voer uw filters en URL&#39;s in en klik vervolgens op **[!UICONTROL Apply]**.
 
 ![](assets/test-advanced-filters.png)
 
 ## Documentatie voor observerpunt {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-Dit artikel is ontwikkeld in samenwerking met ObservePoint. Raadpleeg de documentatie [van]ObservePoint (https://help.observepoint.com/) voor de meest recente informatie.
+Dit artikel is ontwikkeld in samenwerking met ObservePoint. Raadpleeg voor de meest recente informatie de [Documentatie voor observerpunt](https://help.observepoint.com/.
